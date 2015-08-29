@@ -111,6 +111,15 @@ small, .font_small {font-size: 0.707em;}
 	position: fixed;
 	margin-top: 60px;
 	text-align: right;
+	font-size: 10px;
+}
+.links {
+		margin-left: 370px;
+		position: fixed;
+		margin-top: 8px;
+		text-align: left;
+		width: 300px;
+		font-size: 10px;
 }
 
 .fullstack {
@@ -150,6 +159,7 @@ small, .font_small {font-size: 0.707em;}
 .description {
 	width: 100%;
 	font-style: italic;
+	color: #C0BAD5;
 }
 
 .education {
@@ -163,7 +173,7 @@ small, .font_small {font-size: 0.707em;}
 	padding-left: 5px;
 	width: 49%;
 	float: right;
-	height: 210px;
+	height: 200px;
 	/*border: 1px solid black;*/
 }
 
@@ -171,21 +181,48 @@ small, .font_small {font-size: 0.707em;}
 	margin-top: 140px;
 	width: 49%;
 	float: right;
-	height: 170px;
+	height: 180px;
 	/*border: 1px solid black;*/
 }
 .tools p {
-	padding-left: 10px
+	padding-left: 20px
 
 }
 .languages p {
-	padding-left: 10px
+	padding-left: 20px
 }
 
 .community {
 	text-align: center;
 	width: 49%;
 	float: right;
-	height: 60px;
-	/*border: 1px solid black;*/
+	height: 50px;
+	color: #C0BAD5;
+
+}
+
+.lang {
+	width: 45%;
+	float: left;
+	color: #C0BAD5;
+}
+
+.bubbles {
+	width: 35%;
+	float: right;
+}
+
+.fa-circle {
+	color: #C0BAD5;
+}
+.fa-circle-o {
+	color: #C0BAD5;
+}
+
+.grey {
+	color: #C0BAD5;
+}
+
+.company {
+	color: #C0BAD5;
 }
