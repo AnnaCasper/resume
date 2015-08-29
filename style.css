@@ -48,23 +48,25 @@ table {
 html {font-size: 0.75em;}
 
 body {
+	border: 1px solid white;
   background-color: white;
   font-family: Open Sans, serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #333;
+  color: #000000;
 }
 
-p {margin-bottom: 1.3em;}
+p {
+	font-size: 12px;
+}
 
 h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
+  /*margin: 1.414em 0 0.5em;*/
   font-weight: inherit;
   line-height: 1;
 }
 
 h1 {
-  margin-top: 0;
   font-size: 6.998em;
   font-family: Quattrocento Sans, sans-serif;
   font-weight: bolder;
@@ -77,7 +79,12 @@ h2 {
 
 h3 {font-size: 1.999em;}
 
-h4 {font-size: 1.414em;}
+h4 {font-size: 16px;
+	font-weight: bold;
+	font-family: Quattrocento Sans, sans-serif;
+	color: #92140C;
+	text-align: center;
+}
 
 small, .font_small {font-size: 0.707em;}
 
@@ -87,15 +94,98 @@ small, .font_small {font-size: 0.707em;}
 }
 
 .firstName {
-  margin-left: 500px;
-  padding:5px;
-  border: 1px solid black;
+  margin-left: 200px;
+	position: fixed;
   width: 170px;
+	color: #92140C;
 }
 
 .lastName {
-  margin-left: 600px;
-  padding:5px;
+	margin-top:40px;
+  margin-left: 300px;
   width: 250px;
-  border: 1px solid black;
+	position: fixed;
+}
+.contact {
+	margin-left: 150px;
+	position: fixed;
+	margin-top: 60px;
+	text-align: right;
+}
+
+.fullstack {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.fa {
+	color: #92140C;
+}
+
+.projects {
+	margin-top: 140px;
+	width: 49%;
+	height: 470px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+.title {
+	font-weight: bold;
+	width: 50%;
+	float: left;
+	font-family: Quattrocento Sans, sans-serif;
+}
+
+.workExperience {
+	width: 100%;
+	float: left;
+}
+
+.date {
+	text-align: right;
+	width: 50%;
+	float: right;
+}
+.description {
+	width: 100%;
+	font-style: italic;
+}
+
+.education {
+
+	width: 100%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+.tools {
+	padding-left: 5px;
+	width: 49%;
+	float: right;
+	height: 210px;
+	/*border: 1px solid black;*/
+}
+
+.languages {
+	margin-top: 140px;
+	width: 49%;
+	float: right;
+	height: 170px;
+	/*border: 1px solid black;*/
+}
+.tools p {
+	padding-left: 10px
+
+}
+.languages p {
+	padding-left: 10px
+}
+
+.community {
+	text-align: center;
+	width: 49%;
+	float: right;
+	height: 60px;
+	/*border: 1px solid black;*/
 }
