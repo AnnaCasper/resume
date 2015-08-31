@@ -134,13 +134,24 @@ small, .font_small {font-size: 0.707em;}
 .projects {
 	margin-top: 140px;
 	width: 49%;
-	height: 470px;
+	height: 460px;
 	float: left;
 }
-
-.title {
-	width: 50%;
+.comm {
+	width: 49%;
 	float: left;
+}
+.title {
+	width: 49%;
+	float: left;
+	font-size: 14px;
+	font-family: Quattrocento Sans, sans-serif;
+	margin: 0px;
+}
+.projectTitle {
+	width: 100%;
+	float: left;
+	font-size: 14px;
 	font-family: Quattrocento Sans, sans-serif;
 }
 
@@ -151,8 +162,10 @@ small, .font_small {font-size: 0.707em;}
 
 .date {
 	text-align: right;
-	width: 50%;
+	width: 49%;
 	float: right;
+	font-family: Quattrocento Sans, sans-serif;
+	font-size: 14px;
 }
 .description {
 	width: 100%;
@@ -227,5 +240,13 @@ small, .font_small {font-size: 0.707em;}
 .project {
 	float: left;
 	width: 100%;
-	border: 1px solid black;
+	font-style: italic;
+	color: #C0BAD5;
+}
+.projectDescription {
+	color: #C0BAD5;
+
+}
+.progress {
+	font-style: italic;
 }
