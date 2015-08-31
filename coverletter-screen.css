@@ -88,7 +88,7 @@ h4 {font-size: 16px;
 
 small, .font_small {font-size: 0.707em;}
 
-.header {
+header {
   text-align: center;
   width: 100%;
 }
@@ -131,132 +131,24 @@ small, .font_small {font-size: 0.707em;}
 	color: #92140C;
 }
 
-.projects {
-	margin-top: 140px;
-	width: 49%;
-	height: 460px;
-	float: left;
-}
-.comm {
-	width: 49%;
-	float: left;
-}
-.title {
-	width: 49%;
-	float: left;
-	font-size: 14px;
-	font-family: Quattrocento Sans, sans-serif;
-	margin: 0px;
-}
-.projectTitle {
+.address, .whom, .job, .p1, .p2, .p3, .closing, .sincerely {
 	width: 100%;
-	float: left;
-	font-size: 14px;
-	font-family: Quattrocento Sans, sans-serif;
+	height: auto;
+	margin-bottom: 20px;
 }
 
-.workExperience {
-	width: 100%;
-	float: left;
+.address {
+	margin-top: 200px;
 }
-
-.date {
-	text-align: right;
-	width: 49%;
-	float: right;
-	font-family: Quattrocento Sans, sans-serif;
-	font-size: 14px;
-}
-.description {
-	width: 100%;
-	font-style: italic;
-	color: #C0BAD5;
-	font-size: 12px;
-}
-
-.education {
-	width: 100%;
-	float: left;
-}
-
-.tools {
-	padding-left: 5px;
-	width: 49%;
-	float: right;
-	height: 200px;
-	/*border: 1px solid black;*/
-}
-
-.languages {
-	margin-top: 140px;
-	width: 49%;
-	float: right;
-	height: 180px;
-	/*border: 1px solid black;*/
-}
-.tools p {
-	padding-left: 20px
-
-}
-.languages p {
-	padding-left: 20px
-}
-
-.community {
-	text-align: center;
-	width: 49%;
-	float: right;
-	height: 50px;
-	color: #C0BAD5;
-
-}
-
-.lang {
-	width: 45%;
-	float: left;
-	color: #C0BAD5;
-}
-
-.bubbles {
-	width: 35%;
-	float: right;
-}
-
-.fa-circle {
-	color: #C0BAD5;
-}
-.fa-circle-o {
-	color: #C0BAD5;
-}
-
 .grey {
 	color: #C0BAD5;
 	font-size: 11px;
 }
 
-.company {
-	color: #C0BAD5;
-	font-size: 12px;
-}
-
-.project {
-	float: left;
-	width: 100%;
-	font-style: italic;
-	color: #C0BAD5;
-}
-.projectDescription {
-	color: #C0BAD5;
-}
-.progress {
-	font-style: italic;
-}
-
-
 .pdf {
 	margin: 0 auto;
 	width: 700px;
-	height: auto;
+	height: 920px;
 	overflow: hidden;
 	margin-top: 40px;
 	margin-bottom: 40px;
