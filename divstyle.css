@@ -226,3 +226,12 @@ small, .font_small {font-size: 0.707em;}
 .company {
 	color: #C0BAD5;
 }
+
+.pdf {
+	width: 700px;
+	height: 920px;
+	margin: 40px;
+	border: 1px solid rgba(0,0,0, .5);
+	padding: 20px;
+	box-shadow: 10px 10px 5px rgba(0,0,0, .5);
+}
