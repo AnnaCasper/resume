@@ -223,3 +223,9 @@ small, .font_small {font-size: 0.707em;}
 .company {
 	color: #C0BAD5;
 }
+
+.project {
+	float: left;
+	width: 100%;
+	border: 1px solid black;
+}
