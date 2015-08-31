@@ -171,6 +171,7 @@ small, .font_small {font-size: 0.707em;}
 	width: 100%;
 	font-style: italic;
 	color: #C0BAD5;
+	font-size: 12px;
 }
 
 .education {
@@ -235,6 +236,7 @@ small, .font_small {font-size: 0.707em;}
 
 .company {
 	color: #C0BAD5;
+	font-size: 12px;
 }
 
 .project {
