@@ -88,7 +88,7 @@ h4 {font-size: 16px;
 
 small, .font_small {font-size: 0.707em;}
 
-.header {
+header {
   text-align: center;
   width: 100%;
 }
@@ -170,7 +170,7 @@ small, .font_small {font-size: 0.707em;}
 .description {
 	width: 100%;
 	font-style: italic;
-	color: #C0BAD5;
+	color: #D3D3D3;
 	font-size: 12px;
 }
 
@@ -207,14 +207,14 @@ small, .font_small {font-size: 0.707em;}
 	width: 49%;
 	float: right;
 	height: 50px;
-	color: #C0BAD5;
+	color: #D3D3D3;
 
 }
 
 .lang {
 	width: 45%;
 	float: left;
-	color: #C0BAD5;
+	color: #D3D3D3;
 }
 
 .bubbles {
@@ -223,19 +223,19 @@ small, .font_small {font-size: 0.707em;}
 }
 
 .fa-circle {
-	color: #C0BAD5;
+	color: #D3D3D3;
 }
 .fa-circle-o {
-	color: #C0BAD5;
+	color: #D3D3D3;
 }
 
 .grey {
-	color: #C0BAD5;
+	color: #D3D3D3;
 	font-size: 11px;
 }
 
 .company {
-	color: #C0BAD5;
+	color: #D3D3D3;
 	font-size: 12px;
 }
 
@@ -243,10 +243,10 @@ small, .font_small {font-size: 0.707em;}
 	float: left;
 	width: 100%;
 	font-style: italic;
-	color: #C0BAD5;
+	color: #D3D3D3;
 }
 .projectDescription {
-	color: #C0BAD5;
+	color: #D3D3D3;
 
 }
 .progress {

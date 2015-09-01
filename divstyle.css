@@ -170,7 +170,7 @@ small, .font_small {font-size: 0.707em;}
 .description {
 	width: 100%;
 	font-style: italic;
-	color: #C0BAD5;
+	color: #747A7D;
 	font-size: 12px;
 }
 
@@ -207,14 +207,14 @@ small, .font_small {font-size: 0.707em;}
 	width: 49%;
 	float: right;
 	height: 50px;
-	color: #C0BAD5;
+	color: #747A7D;
 
 }
 
 .lang {
 	width: 45%;
 	float: left;
-	color: #C0BAD5;
+	color: #747A7D;
 }
 
 .bubbles {
@@ -223,19 +223,19 @@ small, .font_small {font-size: 0.707em;}
 }
 
 .fa-circle {
-	color: #C0BAD5;
+	color: #747A7D;
 }
 .fa-circle-o {
-	color: #C0BAD5;
+	color: #747A7D;
 }
 
 .grey {
-	color: #C0BAD5;
+	color: #747A7D;
 	font-size: 11px;
 }
 
 .company {
-	color: #C0BAD5;
+	color: #747A7D;
 	font-size: 12px;
 }
 
@@ -243,10 +243,10 @@ small, .font_small {font-size: 0.707em;}
 	float: left;
 	width: 100%;
 	font-style: italic;
-	color: #C0BAD5;
+	color: #747A7D;
 }
 .projectDescription {
-	color: #C0BAD5;
+	color: #747A7D;
 }
 .progress {
 	font-style: italic;
