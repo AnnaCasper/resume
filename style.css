@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,7 +49,7 @@ table {
 html {font-size: 0.75em;}
 
 body {
-	border: 1px solid white;
+
   background-color: white;
   font-family: Open Sans, serif;
   font-weight: 400;
@@ -88,7 +89,78 @@ h4 {font-size: 16px;
 
 small, .font_small {font-size: 0.707em;}
 
-header {
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.siteHeader {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 780px;
+  background-size: 100% 780px;
+  background-image: url('/images/sea.jpeg');
+}
+a {
+	text-decoration: none;
+	color:inherit;
+}
+a:hover {
+  cursor:pointer;
+  color: #92140C;
+}
+
+.headerFirstName {
+  margin-top: 20px;
+  font-size: 22px;
+  margin-left: 150px;
+	position: absolute;
+  width: 300px;
+	color: #92140C;
+}
+
+.headerLastName {
+  font-size: 22px;
+	margin-top:80px;
+  margin-left: 250px;
+  width: 450px;
+	position: absolute;
+}
+
+.headerFullstack {
+  margin-top: 130px;
+  margin-left: 30px;
+	font-size: 18px;
+  width: 230px;
+  position: absolute;
+}
+
+.navBar {
+  margin-top: 0px;
+  width: 100%;
+  position: fixed;
+  float: right;
+}
+
+.nav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: right;
+  font-size: 28px;
+  margin-right: 30px;
+}
+
+.resume {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 1100px;
+  background-color:#514658;
+  background-size: 100% 1100px;
+}
+
+.pdfHeader {
   text-align: center;
   width: 100%;
 }
@@ -133,7 +205,7 @@ header {
 
 .projects {
 	margin-top: 140px;
-	width: 49%;
+	width: 58%;
 	height: 460px;
 	float: left;
 }
@@ -170,7 +242,7 @@ header {
 .description {
 	width: 100%;
 	font-style: italic;
-	color: #D3D3D3;
+	color: #a6a6a6;
 	font-size: 12px;
 }
 
@@ -181,61 +253,59 @@ header {
 
 .tools {
 	padding-left: 5px;
-	width: 49%;
+	width: 40%;
 	float: right;
-	height: 200px;
-	/*border: 1px solid black;*/
+	height: 190px;
 }
 
 .languages {
 	margin-top: 140px;
-	width: 49%;
+	width: 40%;
 	float: right;
-	height: 180px;
+	height: 200px;
 	/*border: 1px solid black;*/
 }
 .tools p {
-	padding-left: 20px
+	padding-left: 0px
 
 }
 .languages p {
-	padding-left: 20px
+	padding-left: 0px
 }
 
 .community {
 	text-align: center;
-	width: 49%;
+	width: 40%;
 	float: right;
-	height: 50px;
-	color: #D3D3D3;
-
+	height: 65px;
+	color: #a6a6a6;
 }
 
 .lang {
-	width: 45%;
+	width: 60%;
 	float: left;
-	color: #D3D3D3;
+	color: #a6a6a6;
 }
 
 .bubbles {
-	width: 35%;
+	width: 25%;
 	float: right;
 }
 
 .fa-circle {
-	color: #D3D3D3;
+	color: #a6a6a6;
 }
 .fa-circle-o {
-	color: #D3D3D3;
+	color: #a6a6a6;
 }
 
 .grey {
-	color: #D3D3D3;
+	color: #a6a6a6;
 	font-size: 11px;
 }
 
 .company {
-	color: #D3D3D3;
+	color: #a6a6a6;
 	font-size: 12px;
 }
 
@@ -243,12 +313,57 @@ header {
 	float: left;
 	width: 100%;
 	font-style: italic;
-	color: #D3D3D3;
+	color: #a6a6a6;
 }
 .projectDescription {
-	color: #D3D3D3;
-
+	color: #a6a6a6;
 }
 .progress {
 	font-style: italic;
+}
+
+/*.pdf {
+  background-color: white;
+	margin: 0 auto;
+	width: 700px;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 40px;
+	border: 1px solid rgba(0,0,0, .5);
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 10px 10px 5px rgba(0,0,0, .5);
+}*/
+
+.aboutdiv {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 780px;
+  background-size: 100% 780px;
+  background-color: #B2B7AD;
+}
+
+.contactdiv {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 780px;
+  background-size: 100% 780px;
+  background-image: url('/images/birds.png');
+  background-color: #B2B7AD;
+}
+
+.portfoliodiv {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 780px;
+  background-size: 100% 780px;
+  background-color: #3D4254;
+}
+
+.contactIcon {
+	margin: 20px
 }
