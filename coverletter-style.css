@@ -97,7 +97,10 @@ main {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
+a {
+	text-decoration: none;
+	color:inherit;
+}
 
 .firstName {
   margin-left: 150px;
@@ -141,6 +144,6 @@ main {
 	margin-bottom: 20px;
 }
 .grey {
-	color: #C0BAD5;
+	color: #a6a6a6;
 	font-size: 11px;
 }

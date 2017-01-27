@@ -54,7 +54,7 @@ body {
   font-family: Open Sans, serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #000000;
+  color: #11151C;
 }
 
 p {
@@ -203,14 +203,13 @@ a:hover {
 	color: #92140C;
 }
 
-.projects {
+.workExperience {
 	margin-top: 140px;
 	width: 58%;
-	height: 460px;
+	height: 470px;
 	float: left;
 }
 .comm {
-	width: 49%;
 	float: left;
 }
 .title {
@@ -227,9 +226,10 @@ a:hover {
 	font-family: Quattrocento Sans, sans-serif;
 }
 
-.workExperience {
+.projects {
 	width: 100%;
 	float: left;
+	height: 260px;
 }
 
 .date {
@@ -242,7 +242,7 @@ a:hover {
 .description {
 	width: 100%;
 	font-style: italic;
-	color: #a6a6a6;
+	color: #747A7D;
 	font-size: 12px;
 }
 
@@ -255,7 +255,7 @@ a:hover {
 	padding-left: 5px;
 	width: 40%;
 	float: right;
-	height: 190px;
+	height: 200px;
 }
 
 .languages {
@@ -277,14 +277,14 @@ a:hover {
 	text-align: center;
 	width: 40%;
 	float: right;
-	height: 65px;
-	color: #a6a6a6;
+	height: 70px;
+	color: #747A7D;
 }
 
 .lang {
 	width: 60%;
 	float: left;
-	color: #a6a6a6;
+	color: #747A7D;
 }
 
 .bubbles {
@@ -293,19 +293,19 @@ a:hover {
 }
 
 .fa-circle {
-	color: #a6a6a6;
+	color: #747A7D;
 }
 .fa-circle-o {
-	color: #a6a6a6;
+	color: #747A7D;
 }
 
 .grey {
-	color: #a6a6a6;
+	color: #747A7D;
 	font-size: 11px;
 }
 
 .company {
-	color: #a6a6a6;
+	color: #747A7D;
 	font-size: 12px;
 }
 
@@ -313,16 +313,15 @@ a:hover {
 	float: left;
 	width: 100%;
 	font-style: italic;
-	color: #a6a6a6;
+	color: #747A7D;
 }
-.projectDescription {
-	color: #a6a6a6;
-}
+
 .progress {
 	font-style: italic;
 }
 
 /*.pdf {
+	margin-top: 40px;
   background-color: white;
 	margin: 0 auto;
 	width: 700px;
@@ -366,4 +365,28 @@ a:hover {
 
 .contactIcon {
 	margin: 20px
+}
+
+.projectDescription {
+	color: #92140C !important;
+}
+
+.projectColumn1 {
+	float:left;
+	width:50%;
+}
+
+.projectColumn2 {
+	float: right;
+	width: 50%;
+}
+
+.jobDescription {
+	width: 100%;
+	color: #747A7D;
+	font-size: 12px;
+}
+
+.space {
+	height: 10px;
 }
